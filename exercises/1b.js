@@ -10,5 +10,12 @@
  * @returns {Array} The array containing only the middle elements
  */
 export function getMiddle(arr) {
-  // TODO
+  // Slice it to only get the middle 3
+  const result = arr.slice(1, -1)
+  // Return the result
+  return result
 }
+
+// const testArray = [1, 2, 3]
+// const result = getMiddle(testArray)
+// console.log(result)
